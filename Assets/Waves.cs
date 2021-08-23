@@ -9,6 +9,7 @@ using UnityEngine.Rendering;
 
 public struct GerstnerWaveOptions
 {
+    //taken directly from https://blog.farazshaikh.com/stories/generating-a-stylized-ocean/
     public GerstnerWaveOptions(float2 dir, float steep, float length)
     {
         direction = dir;
